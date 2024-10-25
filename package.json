@@ -1,11 +1,13 @@
 {
-  "name": "app",
-  "version": "1.0.50",
+  "name": "elysia-test-app",
+  "version": "0.0.1",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "bun test --watch",
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
+    "@elysiajs/eden": "^1.1.3",
     "elysia": "latest"
   },
   "devDependencies": {
